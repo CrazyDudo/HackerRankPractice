@@ -3,7 +3,7 @@ public class Solution {
     // 原问题链接:
     // 概要:
     // 思路:
-    // 代码:
+
     public static void solve() {
         System.out.println("problem solved");
     }

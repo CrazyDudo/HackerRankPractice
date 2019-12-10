@@ -1,6 +1,6 @@
 
 public class Solution {
-    // 原问题链接:
+    // 链接:问题链接
     // 概要:
     // 思路:
 

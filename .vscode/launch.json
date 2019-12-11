@@ -8,25 +8,21 @@
             "type": "java",
             "name": "CodeLens (Launch) - BonAppetit",
             "request": "launch",
-            "mainClass": "BonAppetit"
+            "mainClass": "BonAppetit",
+            "projectName": "HackerRankPractice_c5d17d01"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "HackerRankPractice_c5d17d01"
         },
         {
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-SimpleArraySum",
-            "request": "launch",
-            "mainClass": "com.cd._001.SimpleArraySum"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-CompareTheTriplets",
-            "request": "launch",
-            "mainClass": "com.cd._002.CompareTheTriplets"
         }
     ]
 }

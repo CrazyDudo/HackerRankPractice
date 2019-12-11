@@ -7,8 +7,10 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-
-        // base64Test();
+        
+        System.out.println("test E");
+        
+        // base64Test(); 
         // getTotalX();
     }
 

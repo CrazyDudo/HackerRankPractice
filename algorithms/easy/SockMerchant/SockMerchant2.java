@@ -21,7 +21,6 @@ public class SockMerchant2 {
 
         int count = 0;
         for (int i = 0; i < n; i++) {
-
             int color = ar[i];
             if (colorTypes.containsKey(color) && colorTypes.get(color).equals(1)) {
 
@@ -44,6 +43,5 @@ public class SockMerchant2 {
     public static void main(String[] args) {
         int[] ar = { 1, 2, 1, 2, 5, 2 };
         sockMerchant(6, ar);
-
     }
 }

@@ -17,13 +17,13 @@ public class SockMerchant {
         int count = 0;
         for (int i = 0; i < ar.length - 1; i++) {
             for (int j = 1; j < ar.length; j++) {
-                if (ar[i] == ar[j] && j > i&&ar[i]!=-10086) {
+                if (ar[i] == ar[j] && j > i && ar[i] != -10086) {
                     count++;
                     System.out.println(ar[i] + " ==" + ar[j]);
                     ar[i] = -10086;
                     ar[j] = -10086;
                 }
-                
+
             }
         }
 
@@ -34,7 +34,7 @@ public class SockMerchant {
     }
 
     public static void main(String[] args) {
-        int[] ar = { 1, 2, 1, 2, 5 ,2};
+        int[] ar = { 1, 2, 1, 2, 5, 2 };
         sockMerchant(6, ar);
 
     }

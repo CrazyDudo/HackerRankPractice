@@ -15,6 +15,7 @@ public class DrawingBook2 {
          */
 
         int start = p / 2;
+
         int end = 0;
 
         if (n % 2 == 1) {
@@ -22,7 +23,7 @@ public class DrawingBook2 {
 
         } else {
 
-            end =(int) Math.ceil((n - p )/ 2.0);
+            end = (int) Math.ceil((n - p) / 2.0);
 
         }
 

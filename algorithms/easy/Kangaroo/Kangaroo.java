@@ -1,15 +1,15 @@
- 
 
 public class Kangaroo {
-//    Complete the function kangaroo in the editor below. It should return YES if they reach the same position at the same time, or NO if they don't.
-//
-//    kangaroo has the following parameter(s):
-//
-//    x1, v1: integers, starting position and jump distance for kangaroo 1
-//    x2, v2: integers, starting position and jump distance for kangaroo 2
-//x1,x2,v1,v2,均小于10000
+    // Complete the function kangaroo in the editor below. It should return YES if
+    // they reach the same position at the same time, or NO if they don't.
+    //
+    // kangaroo has the following parameter(s):
+    //
+    // x1, v1: integers, starting position and jump distance for kangaroo 1
+    // x2, v2: integers, starting position and jump distance for kangaroo 2
+    // x1,x2,v1,v2,均小于10000
 
-    //思路：算出总路程，比较是否相等
+    // 思路：算出总路程，比较是否相等
 
     // Complete the kangaroo function below.
     static String kangaroo(int x1, int v1, int x2, int v2) {
@@ -29,10 +29,8 @@ public class Kangaroo {
 
         }
 
-
         return result;
     }
-
 
     public static void main(String[] strings) {
         System.out.println(kangaroo(1, 3, 4, 3));

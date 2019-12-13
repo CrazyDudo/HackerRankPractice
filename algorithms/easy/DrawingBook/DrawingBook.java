@@ -24,13 +24,13 @@ public class DrawingBook {
 
                 System.out.println("从头开始");
                 count = p / 2;
-                
+
             } else {
                 System.out.println("从尾开始");
 
                 if (n % 2 == 0) {
                     System.out.println("n是偶数");
-                    count = ((n+1 - p) / 2);
+                    count = ((n + 1 - p) / 2);
 
                 } else {
 

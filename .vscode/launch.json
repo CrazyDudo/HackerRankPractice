@@ -6,23 +6,15 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - BonAppetit",
-            "request": "launch",
-            "mainClass": "BonAppetit",
-            "projectName": "HackerRankPractice_c5d17d01"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Test",
-            "request": "launch",
-            "mainClass": "Test",
-            "projectName": "HackerRankPractice_c5d17d01"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test",
+            "request": "launch",
+            "mainClass": "Test"
         }
     ]
 }

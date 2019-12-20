@@ -31,7 +31,7 @@ public class ElectronicsShop {
                     isAffordable = true;
                 }
 
-                if (b > sum && gap > b - sum) {
+                if (b >= sum && gap > b - sum) {
                     System.out.println("keyboard=" + keyboards[i] + "   drives=" + drives[j]);
                     sumList.add(sum);
                     gap = b - sum;
@@ -40,6 +40,7 @@ public class ElectronicsShop {
         }
 
         Collections.sort(sumList);
+        System.out.println(isAffordable);
         return isAffordable ? sumList.get(sumList.size() - 1) : -1;
     }
 
@@ -49,16 +50,16 @@ public class ElectronicsShop {
         // 5 2 8
         // Sample Output 9
 
-        int[] keyboards = { 3, 1 };
-        int[] drives = { 5, 2, 8 };
-        long result = getMoneySpent(keyboards, drives, 10);
-        System.out.println(result);
+        // int[] keyboards = { 3, 1 };
+        // int[] drives = { 5, 2, 8 };
+        // long result = getMoneySpent(keyboards, drives, 10);
+        // System.out.println(result);
 
         // 572413 359082 441954 808540
 
-        // int[] keyboards = { 572413, 359082 };
-        // int[] drives = { 441954, 808540, 8 };
-        // int result = getMoneySpent(keyboards, drives, 8085401);
-        // System.out.println(result);
+        int[] keyboards = { 1, 2 };
+        int[] drives = { 1, 2, 3 };
+        int result = getMoneySpent(keyboards, drives, 2);
+        System.out.println(result);
     }
 }

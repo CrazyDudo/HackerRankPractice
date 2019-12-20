@@ -1,4 +1,6 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -17,25 +19,28 @@ public class ElectronicsShop {
         /*
          * Write your code here.
          */
-
+        List<Integer> sumList = new ArrayList<>();
         int sum = 0;
+        int gap = b;
 
-        int temp = 0;
-
-        // 求和
+        boolean isAffordable = false;
         for (int i = 0; i < keyboards.length; i++) {
             for (int j = 0; j < drives.length; j++) {
                 sum = keyboards[i] + drives[j];
+                if (b >= sum) {
+                    isAffordable = true;
+                }
 
-                if (b > sum && temp > b - sum) {
-                    temp = b - sum;
+                if (b > sum && gap > b - sum) {
+                    System.out.println("keyboard=" + keyboards[i] + "   drives=" + drives[j]);
+                    sumList.add(sum);
+                    gap = b - sum;
                 }
             }
         }
 
-        System.out.println(temp);
-
-        return 1;
+        Collections.sort(sumList);
+        return isAffordable ? sumList.get(sumList.size() - 1) : -1;
     }
 
     public static void main(String[] args) {
@@ -46,7 +51,14 @@ public class ElectronicsShop {
 
         int[] keyboards = { 3, 1 };
         int[] drives = { 5, 2, 8 };
-        getMoneySpent(keyboards, drives, 10);
+        long result = getMoneySpent(keyboards, drives, 10);
+        System.out.println(result);
 
+        // 572413 359082 441954 808540
+
+        // int[] keyboards = { 572413, 359082 };
+        // int[] drives = { 441954, 808540, 8 };
+        // int result = getMoneySpent(keyboards, drives, 8085401);
+        // System.out.println(result);
     }
 }

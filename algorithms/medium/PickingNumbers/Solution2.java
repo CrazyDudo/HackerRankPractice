@@ -12,7 +12,7 @@ public class Solution2 {
     // 思路:1.对原solution.java中，map按key排序；2.判断若两数（key)相邻，则对其value作和；3.对和排序，取最大。
 
     public static int pickingNumbers(List<Integer> a) {
-
+        //最终结果
         int result;
 
         // 统计频次
@@ -65,7 +65,7 @@ public class Solution2 {
 
         }
 
-        // 所有元素都相等情况
+        // 所有元素值相等情况
         if (keyList.size() == 1) {
 
             return a.size();

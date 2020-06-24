@@ -12,7 +12,7 @@ public class Solution2 {
     // 思路:1.对原solution.java中，map按key排序；2.判断若两数（key)相邻，则对其value作和；3.对和排序，取最大。
 
     public static int pickingNumbers(List<Integer> a) {
-        //最终结果
+        // 最终结果
         int result;
 
         // 统计频次
@@ -44,7 +44,6 @@ public class Solution2 {
         }
 
         // 按值排序
-
         List<Map.Entry<Integer, Integer>> valueList = new ArrayList<Map.Entry<Integer, Integer>>(map.entrySet());
 
         System.out.println("keylist==" + keyList);
@@ -82,7 +81,6 @@ public class Solution2 {
                 // return (o1.getKey()).toString().compareTo(o2.getKey());
             }
         });
-       
 
         int maxSingle = valueList.get(0).getValue();
 
@@ -123,15 +121,17 @@ public class Solution2 {
         // 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66
         // 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66
         // 66";
-        
-        // String s = "4 97 5 97 97 4 97 4 97 97 97 97 4 4 5 5 97 5 97 99 4 97 5 97 97 97 5 5 97 4 5 97 97 5 97 4 97 5 4 4 97 5 5 5 4 97 97 4 97 5 4 4 97 97 97 5 5 97 4 97 97 5 4 97 97 4 97 97 97 5 4 4 97 4 4 97 5 97 97 97 97 4 97 5 97 5 4 97 4 5 97 97 5 97 5 97 5 97 97 97";
-        String s= "4 6 5 3 3 1";
+
+        // String s = "4 97 5 97 97 4 97 4 97 97 97 97 4 4 5 5 97 5 97 99 4 97 5 97 97
+        // 97 5 5 97 4 5 97 97 5 97 4 97 5 4 4 97 5 5 5 4 97 97 4 97 5 4 4 97 97 97 5 5
+        // 97 4 97 97 5 4 97 97 4 97 97 97 5 4 4 97 4 4 97 5 97 97 97 97 4 97 5 97 5 4
+        // 97 4 5 97 97 5 97 5 97 5 97 97 97";
+        String s = "4 6 5 3 3 1";
         String[] ss = s.split(" ");
 
         for (int i = 0; i < ss.length; i++) {
             b.add(Integer.valueOf(ss[i]));
         }
-
 
         System.out.println(pickingNumbers(b));
 

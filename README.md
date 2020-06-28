@@ -1,10 +1,7 @@
 # HackerRankPractice
 HackerRankPractice
 
-
- 
-2019年11月20日：   
-在HackerRank练习算法记录
+HackerRank算法练习：
 
 
 https://www.hackerrank.com/

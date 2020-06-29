@@ -7,7 +7,7 @@ public class Solution {
     // Complete the viralAdvertising function below.
     static int viralAdvertising(int n) {
         // 开始值：5
-        // 每次一半人分，每人分享给三人
+        // 每次一半人like and share，每人分享给三人
 
         int count = 0;
 

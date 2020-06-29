@@ -1,7 +1,7 @@
 public class Solution {
     // 链接:https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem
-    // 概要:
-    // 思路:
+    // 概要:数字翻转，整除
+    // 思路:见代码
 
     // Complete the beautifulDays function below.
     static int beautifulDays(int i, int j, int k) {

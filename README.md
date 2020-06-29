@@ -1,13 +1,11 @@
 # HackerRankPractice
 HackerRankPractice
 
-HackerRank算法练习：
+[HackerRank](https://www.hackerrank.com/)算法练习：
 
-
-https://www.hackerrank.com/
 
 ---
-格式：   
+目录格式：   
 
 0. 原问题链接
 1. 问题概要
@@ -25,35 +23,35 @@ https://www.hackerrank.com/
 | 1    | [Simple Array Sum](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/SimpleArraySum/SimpleArraySum.java)                            | Array, Hash Table                        |
 | 2    | [Compare the Triplets](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/CompareTheTriplets/CompareTheTriplets.java)                   | Math                                     |
 | 3    | [A Very Big Sum](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/VeryBigSum/VeryBigSum.java)              | Math                                     |
-| 13   | [Diagnal Difference](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DiagonalDifference/DiagonalDifference.java)                  | Math, String                             |
-| 14   | [Plus Minus](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/PlusMinus/plusMinus.java)             | String                                   |
-| 20   | [Staircase](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/Staircase/Staircase.java)                 | Stack, String                            |
-| 21   | [Mini-Max Sum](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/MiniMaxSum/MiniMaxSum.java)            | Linked List                              |
-| 26   | [Birthday Cake Candles](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BirthdayCakeCandles/BirthdayCakeCandles.java)| Array, Two Pointers                      |
-| 27   | [Time Conversion](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/TimeConversion/TimeConversion.java)                    | Array, Two Pointers                      |
+| 4   | [Diagnal Difference](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DiagonalDifference/DiagonalDifference.java)                  | Math, String                             |
+| 5   | [Plus Minus](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/PlusMinus/plusMinus.java)             | String                                   |
+| 6   | [Staircase](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/Staircase/Staircase.java)                 | Stack, String                            |
+| 7   | [Mini-Max Sum](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/MiniMaxSum/MiniMaxSum.java)            | Linked List                              |
+| 8   | [Birthday Cake Candles](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BirthdayCakeCandles/BirthdayCakeCandles.java)| Array, Two Pointers                      |
+| 9   | [Time Conversion](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/TimeConversion/TimeConversion.java)                    | Array, Two Pointers                      |
 | 28   | [Grading Students](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/GradingStudents/GradingStudents.java)                | Two Pointers, String                     |
-| 35   | [Apple and Orange]()            | String                                   |
-| 38   | [Kangaroo](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/Kangaroo/Kangaroo.java)                     | String                                   |
-| 53   | [Between Two Sets](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/betweenTwoSets/BetweenTwoSets2.java)                  | Array, Divide and Conquer, |
-| 53   | [Breaking the Records](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BreakingtheRecords/BreakingtheRecords.java)                  | Array, Divide and Conquer, |
-| 53   | [Brithday Chocolate](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BirthdayChocolate/BirthdayChocolate.java)                  | Array, Divide and Conquer, |
-| 53   | [Divisible Sum Pairs](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DivisibleSumPairs/DivisibleSumPairs.java)                  | Array, Divide and Conquer, |
-| 53   | [Migratory Birds](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/MigratoryBirds/MigratoryBirds.java)                  | Array, Divide and Conquer, |
-| 53   | [Day of the Programmer](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DayOfProgrammer/DayOfProgrammer.java)                  | Array, Divide and Conquer, |
-| 53   | [Bon Appétit](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BonAppetit/BonAppetit.java)                  | Array, Divide and Conquer, |
-| 53   | [Sock Merchant](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/SockMerchant/SockMerchant2.java)                  | Array, Divide and Conquer, |
-| 53   | [Drawing Book](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DrawingBook/DrawingBook2.java)                  | Array, Divide and Conquer, |
-| 53   | [Counting Valleys](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/CountingValleys/CountingValleys.java)                 | Array, Divide and Conquer, |
-| 53   | [Electronics Shop](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/ElectronicsShop/ElectronicsShop.java)                  | Array, Divide and Conquer, |
-| 53   | [Cats and a Mouse](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/CatAndMouse/CatAndMouse.java)                  | Array, Divide and Conquer, |
-| 53   | [Picking Numbers]()                  | Array, Divide and Conquer, |
-| 53   | [Electronics the Hurdle Race]()                  | Array, Divide and Conquer, |
-| 53   | [Designer PDF Viewer]()                  | Array, Divide and Conquer, |
-| 53   | [Utopian Tree]()                  | Array, Divide and Conquer, |
-| 53   | [Angrey Professor]()                 | Array, Divide and Conquer, |
-| 53   | [Electronics Shop][053]                  | Array, Divide and Conquer, |
-| 53   | [Electronics Shop][053]                  | Array, Divide and Conquer, |
-| 53   | [Electronics Shop][053]                  | Array, Divide and Conquer, |
+| 10   | [Apple and Orange]()            | String                                   |
+| 11   | [Kangaroo](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/Kangaroo/Kangaroo.java)                     | String                                   |
+| 12   | [Between Two Sets](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/betweenTwoSets/BetweenTwoSets2.java)                  | Array, Divide and Conquer, |
+| 13   | [Breaking the Records](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BreakingtheRecords/BreakingtheRecords.java)                  | Array, Divide and Conquer, |
+| 14   | [Brithday Chocolate](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BirthdayChocolate/BirthdayChocolate.java)                  | Array, Divide and Conquer, |
+| 15   | [Divisible Sum Pairs](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DivisibleSumPairs/DivisibleSumPairs.java)                  | Array, Divide and Conquer, |
+| 16   | [Migratory Birds](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/MigratoryBirds/MigratoryBirds.java)                  | Array, Divide and Conquer, |
+| 17   | [Day of the Programmer](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DayOfProgrammer/DayOfProgrammer.java)                  | Array, Divide and Conquer, |
+| 18   | [Bon Appétit](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BonAppetit/BonAppetit.java)                  | Array, Divide and Conquer, |
+| 19   | [Sock Merchant](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/SockMerchant/SockMerchant2.java)                  | Array, Divide and Conquer, |
+| 20   | [Drawing Book](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DrawingBook/DrawingBook2.java)                  | Array, Divide and Conquer, |
+| 21   | [Counting Valleys](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/CountingValleys/CountingValleys.java)                 | Array, Divide and Conquer, |
+| 22   | [Electronics Shop](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/ElectronicsShop/ElectronicsShop.java)                  | Array, Divide and Conquer, |
+| 23   | [Cats and a Mouse](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/CatAndMouse/CatAndMouse.java)                  | Array, Divide and Conquer, |
+| 24   | [Picking Numbers]()                  | Array, Divide and Conquer, |
+| 25   | [Electronics the Hurdle Race]()                  | Array, Divide and Conquer, |
+| 26   | [Designer PDF Viewer]()                  | Array, Divide and Conquer, |
+| 27   | [Utopian Tree]()                  | Array, Divide and Conquer, |
+| 28   | [Angrey Professor]()                 | Array, Divide and Conquer, |
+| 29   | [Beautiful Days at the Movies]()                  | Array, Divide and Conquer, |
+| 30   |[Viral Advertising]()                  | Array, Divide and Conquer, |
+| 31   | [template]()                | Array, Divide and Conquer, |
 
 
 
@@ -73,6 +71,17 @@ https://www.hackerrank.com/
 | :--- | :--------------------------------------- | :--------------------------------------- |
 | 1    | [template]()              | Array, Hash Table                
 | 2    | [template]()              | Math                                     |
+
+
+
+
+
+
+
+
+
+
+
 
 
 

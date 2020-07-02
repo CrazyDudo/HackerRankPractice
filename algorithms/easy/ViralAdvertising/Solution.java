@@ -1,7 +1,7 @@
 
 public class Solution {
     // 链接:https://www.hackerrank.com/challenges/strange-advertising/problem
-    // 概要:返回n天时候的总量
+    // 概要:返回n天时候的like总量
     // 思路:见代码
 
     // Complete the viralAdvertising function below.
@@ -30,7 +30,7 @@ public class Solution {
         // 4 12 6 15
         // 5 18 9 24
 
-        System.out.println(viralAdvertising(4));
+        System.out.println(viralAdvertising(50));
     }
 
 }

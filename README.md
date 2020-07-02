@@ -51,9 +51,9 @@ HackerRankPractice
 | 28   | [Angrey Professor]()                 | Array, Divide and Conquer, |
 | 29   | [Beautiful Days at the Movies]()                  | Array, Divide and Conquer, |
 | 30   |[Viral Advertising]()                  | Array, Divide and Conquer, |
+| 31   | [Save the Prisoner]()                | Array, Divide and Conquer, |
 | 31   | [template]()                | Array, Divide and Conquer, |
-
-
+| 31   | [template]()                | Array, Divide and Conquer, |
 
 
 ## Medium
@@ -71,15 +71,6 @@ HackerRankPractice
 | :--- | :--------------------------------------- | :--------------------------------------- |
 | 1    | [template]()              | Array, Hash Table                
 | 2    | [template]()              | Math                                     |
-
-
-
-
-
-
-
-
-
 
 
 

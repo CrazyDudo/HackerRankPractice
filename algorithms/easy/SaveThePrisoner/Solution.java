@@ -8,17 +8,19 @@ public class Solution {
     static int saveThePrisoner(int n, int m, int s) {
 
         int result = 0;
-
+        // m+s<=n,即一遍可以分发完成
         if ((m + s) <= n) {
 
             return m + s - 1;
         }
+        // m+s>n,即大于一遍分发
         if ((m + s) > n) {
-
+            // 到尾部完
             if ((m + s - 1) % n == 0) {
 
                 result = n;
             } else {
+                // 非尾部完
                 result = (m + s - 1) % n;
             }
 

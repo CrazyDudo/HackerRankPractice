@@ -52,8 +52,12 @@ HackerRankPractice
 | 29   | [Beautiful Days at the Movies]()                  | Array, Divide and Conquer, |
 | 30   |[Viral Advertising]()                  | Array, Divide and Conquer, |
 | 31   | [Save the Prisoner]()                | Array, Divide and Conquer, |
-| 31   | [template]()                | Array, Divide and Conquer, |
-| 31   | [template]()                | Array, Divide and Conquer, |
+| 32   | [circularArrayRotation]()                | Array, Divide and Conquer, |
+| 33   | [template]()                | Array, Divide and Conquer, |
+| 34   | [template]()                | Array, Divide and Conquer, |
+| 35   | [template]()                | Array, Divide and Conquer, |
+| 36   | [template]()                | Array, Divide and Conquer, |
+
 
 
 ## Medium
@@ -90,4 +94,6 @@ OS: Windows_NT x64 10.0.18363
 
 //understander later
 1. formingMagicSquare
-2. 
+
+
+

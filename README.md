@@ -34,7 +34,7 @@ HackerRankPractice
 | 11   | [Kangaroo](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/Kangaroo/Kangaroo.java)                     | String                                   |
 | 12   | [Between Two Sets](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/betweenTwoSets/BetweenTwoSets2.java)                  | Array, Divide and Conquer, |
 | 13   | [Breaking the Records](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BreakingtheRecords/BreakingtheRecords.java)                  | Array, Divide and Conquer, |
-| 14   | [Brithday Chocolate](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BirthdayChocolate/BirthdayChocolate.java)                  | Array, Divide and Conquer, |
+| 14   | [Birthday Chocolate](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/BirthdayChocolate/BirthdayChocolate.java)                  | Array, Divide and Conquer, |
 | 15   | [Divisible Sum Pairs](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DivisibleSumPairs/DivisibleSumPairs.java)                  | Array, Divide and Conquer, |
 | 16   | [Migratory Birds](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/MigratoryBirds/MigratoryBirds.java)                  | Array, Divide and Conquer, |
 | 17   | [Day of the Programmer](https://github.com/CrazyDudo/HackerRankPractice/blob/master/algorithms/easy/DayOfProgrammer/DayOfProgrammer.java)                  | Array, Divide and Conquer, |

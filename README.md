@@ -13,6 +13,22 @@ HackerRankPractice
 3. 代码
 
 
+
+---
+
+
+解决插件CodeRunner中文乱码：  
+1. File - Preferences - Settings  
+2. 代码块里添加如下配置
+
+        {
+           "code-runner.executorMap": {
+              "java": "cd $dir && javac -encoding utf-8 $fileName && java $fileNameWithoutExt"
+                },
+          "code-runner.runInTerminal": false,
+        }
+ 
+
 ---
 
 

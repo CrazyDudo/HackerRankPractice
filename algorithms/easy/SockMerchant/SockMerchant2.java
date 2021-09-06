@@ -17,7 +17,7 @@ public class SockMerchant2 {
     // Complete the sockMerchant function below.
     static int sockMerchant(int n, int[] ar) {
 
-        HashMap colorTypes = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> colorTypes = new HashMap<Integer, Integer>();
 
         int count = 0;
         for (int i = 0; i < n; i++) {

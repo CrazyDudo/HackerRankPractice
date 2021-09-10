@@ -10,7 +10,7 @@ public class VeryBigSum {
         return result;
     }
     public static void main(String[] arg) {
-        long[] arr = new long[]{1L, 2L};
+        long[] arr = new long[]{755918438464L, 755918438464L};
         long l = aVeryBigSum(arr);
         System.out.println(l);
     } 

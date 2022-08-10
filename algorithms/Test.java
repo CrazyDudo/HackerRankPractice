@@ -7,15 +7,15 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        
+
         System.out.println("test E");
-        
-        // base64Test(); 
+
+        // base64Test();
         // getTotalX();
 
     
-    }
 
+        Base64.Decoder decoder = Base64.getDecoder();
 
 
 
@@ -24,9 +24,6 @@ public class Test {
 
 
     
-    private static void base64Test() {
-        Base64.Decoder decoder = Base64.getDecoder();
-
         String s = "Rk1SACAyMAAAAAG2AAABZQGIAMUAxQEAAABWREC8AG1tYkA1AUDFYoCGAF5wYEDEAL1tX4BiASfP\n"
                 + "XUCQAKZ1XECEARvaWkBxAFbwWIBQAFd9WIDGAS3hWEBBATXJWEDsAUBhWEClAB9yVkB4AVzYVUBK\n"
                 + "ADx3VIB6ASnXVEDFACBxUoDmAG1uUkB/AMt9UUCwAJltUEBAAM2VUEAqANIRUICkALDsUEB/AO2D\n"
